@@ -7,8 +7,8 @@ import sqlite3
 import pandas as pd
 
 # File paths for the pre-trained models and embeddings (use the paths where the models are stored)
-model_path = 'https://github.com/manav9503/database_schema_generator/blob/main/label_encoder.pkl'  # Path to the pre-trained Logistic Regression model
-label_encoder_path = 'C:\\Users\\manav\\Downloads\\label_encoder.pkl'  # Path to the pre-trained Label Encoder
+model_path = ''  # Path to the pre-trained Logistic Regression model
+label_encoder_path = 'label_encoder.pkl'  # Path to the pre-trained Label Encoder
 vectorizer_path = 'C:\\Users\\manav\\Downloads\\tfidf_vectorizer.pkl'  # Path to the pre-trained TF-IDF Vectorizer
 db_path = 'schema_data.db'  # SQLite database file
 
