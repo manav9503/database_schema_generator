@@ -30,7 +30,7 @@ def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
 # Default admin password hash
-ADMIN_PASSWORD_HASH = hash_password("manav@ram")  # Set your default admin password
+ADMIN_PASSWORD_HASH = hash_password("tony@sam")  # Set your default admin password
 
 # Check if the entered password is correct
 def check_password(input_password):
