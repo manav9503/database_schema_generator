@@ -213,7 +213,7 @@ def main():
                 predicted_schema = predict_schema(new_prompt)
                 parsed_schema = parse_schema(predicted_schema)
                 st.json(parsed_schema)
-                create_database(parsed_schema)
+                
             else:
                 st.error("Please enter a description for prediction.")
 
