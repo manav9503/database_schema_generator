@@ -12,7 +12,7 @@ from fuzzywuzzy import process
 model_path = 'logistic_model.pkl'  # Path to the pre-trained Logistic Regression model
 label_encoder_path = 'label_encoder.pkl'  # Path to the pre-trained Label Encoder
 vectorizer_path = 'tfidf_vectorizer.pkl'  # Path to the pre-trained TF-IDF Vectorizer
-db_folder = 'database_file\schema_data.db'
+db_path = 'database_file\schema_data.db'
 
 
 # SQLite database file path
