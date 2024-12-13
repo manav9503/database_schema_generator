@@ -13,7 +13,7 @@ model_path = 'logistic_model.pkl'  # Path to the pre-trained Logistic Regression
 label_encoder_path = 'label_encoder.pkl'  # Path to the pre-trained Label Encoder
 vectorizer_path = 'tfidf_vectorizer.pkl'  # Path to the pre-trained TF-IDF Vectorizer
 db_folder = 'database_file'
-os.makedirs(db_folder, exist_ok=True)
+
 
 # SQLite database file path
 db_path = os.path.join(db_folder, 'schema_data.db')
