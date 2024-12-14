@@ -15,17 +15,10 @@ vectorizer_path = 'tfidf_vectorizer.pkl'  # Path to the pre-trained TF-IDF Vecto
 db_path = 'schema_data.db'
 
 
-# SQLite database file path
-
-  # SQLite database file
-
-# Hashing function for admin password
 
 
-# File paths for the pre-trained models and embeddings (use the paths where the models are stored)
 
 
-# Hashing function for admin password
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
